@@ -1,0 +1,306 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background: url('https://www.toptal.com/designers/subtlepatterns/patterns/leaves-pattern.png');
+    font-size: 18px;
+    line-height: 34px;
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+    color: #777
+}
+
+.container{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+    background-color: white;
+}
+
+h1, h2, h3 p{
+    margin-bottom: 20px;
+}
+
+p:last-child{
+    margin-bottom: 0;
+}
+
+h1, h2, h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: #1789FC;
+}
+
+h1{
+    font-size: 30px;
+    line-height: 40px;
+    border-bottom: 3px solid gray;
+    padding-bottom: 20px;
+}
+
+h2, h3{
+    font-size: 22px;
+}
+
+#masthead{
+    background: #fff;
+    margin: 0 0 30px;
+    z-index: 99;
+    color: #fff;
+    overflow: auto;
+    border-bottom: 2px solid #ccc;
+    position: fixed;
+    width: 100%;
+}
+#logo{
+    width: 250px;
+    height: 90px;
+    background: #1789FC;
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    line-height: 90px;
+    font-weight: 700;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+nav{
+    float: right;
+    margin-top: 25px;
+}
+
+nav a{
+    color: #999;
+    text-decoration: none;
+    margin-left: 15px;
+    display: inline-block;
+    border-left: 1px solid #efefef;
+    padding-left: 15px;
+    line-height: 18px;
+}
+
+nav a:first-child{
+    border-left: 0 none;
+}
+
+#main-container{
+    padding-top: 130px;
+    background-color: white;
+}
+
+.main-container{
+    background: #fff;
+    padding: 30px;
+    margin: 0 0 40px 0;
+    width: 100%;
+    max-width: 650px;
+    float: left;
+    border: 1px solid #ddd;
+}
+
+#ebonyPic{
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    float: left;
+    margin-right: 25px;
+}
+
+
+.sidebar{
+    background: #fff;
+    padding: 30px;
+    width: 100%;
+    max-width: 270px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    float: right;
+
+}
+
+h3, .sidebar, h2{
+    border-bottom: 2px solid #eee;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    line-height: 22px;
+}
+
+.social{
+    width: 62px;
+    height: 62px;
+    margin-top: 8px;
+    margin-right: 5px;
+}
+
+.social:last-child{
+    margin-right: 0;
+}
+
+footer{
+    text-align: center;
+    background: #FF6663;
+    color: #fff;
+    padding: 38px 0;
+    font-size: 12px;
+    border-top: 8px solid #1789FC;
+    clear: both;
+    font-size: 18px;
+}
+
+.workImg{
+    width: 250px;
+    height: auto;
+    margin-top: 10px;
+    float: left;
+    margin-right: 25px;
+}
+
+
+.work{
+    position: relative;
+    align-self: auto;
+    float: left;
+    
+}
+
+.work h3{
+    border-bottom: 0;
+    background:#1789FC;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    padding: 15px;
+    width: 250px;
+    line-height: 30px;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+
+#contact-form{
+    padding: 15px;
+}
+
+#contact-form ul {
+    margin-bottom: 20px;
+}
+
+#contact-form li {
+    margin-bottom: 10px;
+}
+
+label, input[type=text], textarea{
+    display: block;
+    width: 100%
+}
+
+input[type=text], textarea{
+    height: 35px;
+    border: 1px solid #ddd;
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+textarea{
+    height: 200px;
+}
+
+input[type=submit]{
+    background: #1789FC;
+    border: 0 none;
+    color: #fff;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 980px) {
+    
+  }
+
+  @media screen and (max-width: 768px) {
+    
+    #masthead{
+        position: static;
+        max-width: 650px;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    nav{
+        float: right;
+        margin-top: 25px;
+        margin-right: 20px;
+    }
+    
+    #main-container{
+        padding-top: 0px;
+        max-width: 650px;
+        margin: auto;
+    }
+    
+        
+    
+    }
+
+  @media only screen and (max-width: 640px) {
+    #logo{
+        max-width: 640px;
+        width: 100%;
+        height: 90px;
+        background: #1789FC;
+        float: left;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: white;
+        text-align: center;
+        line-height: 90px;
+        font-weight: 700;
+        font-size: 30px;
+        text-decoration: none;
+    }
+
+    #masthead{
+        position: static;
+        max-width: 600px;
+        margin: auto;
+        margin-bottom: 15px;
+        
+        
+    }
+
+    #main-container{
+        padding-top: 0px;
+        max-width: 600px;
+        margin: auto;
+    }
+
+    .workImg{
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+        margin: auto;
+        float: none;
+    }
+    .work{
+        width: 100%;
+        margin: auto;
+        float: none;
+        
+    }
+    
+    .work h3{
+        border-bottom: 0;
+        background:#1789FC;
+        color: #fff;
+        text-align: center;
+        position: absolute;
+        bottom: 20px;
+        padding: 15px;
+        width: 100%;
+        line-height: 30px;
+        margin-bottom: 0;
+        font-weight: 300;
+    }
+  }
+
